@@ -1,10 +1,13 @@
+<template>
+	<Header />
+	<Home />
+</template>
+
 <script setup>
+import Header from "./layouts/header/Header.vue"
+import Home from "./views/Home.vue"
 
 </script>
-
-<template>
-	<button type="button" class="btn btn-primary">Primary</button>
-</template>
 
 <style scoped>
 

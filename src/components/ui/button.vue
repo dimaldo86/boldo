@@ -24,4 +24,11 @@
         background-color: var(--secondary);
     }
 }
+
+@media (max-width: 768px)  {
+    .btn__custom {
+        width: 100%;
+        padding: 15px 40px;
+    }
+}
 </style>

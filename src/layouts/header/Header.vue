@@ -149,7 +149,9 @@ const handleToggleMenu = () => {
 }
 @media (max-width: 768px) {
     .header {
-        padding-top: 30px;
+        padding: 30px 0;
+        background-color: var(--light-blue);
+
     }
     .navbar-collapse {
         padding-top: 30px;
@@ -160,13 +162,13 @@ const handleToggleMenu = () => {
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
-        padding: 15px 20px;
+        padding: 15px 0;
     }
 }
 
 @media (max-width: 576px){
     .header {
-        padding-top: 15px;
+        padding: 15px 0;
     }
 }
 </style>
